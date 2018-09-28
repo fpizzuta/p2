@@ -1,6 +1,6 @@
 # Project 2
 + By: Frank Pizzuta
-+ Production URL: <http://p2.yourdomain.com>
++ Production URL: <http://p2.pizzuta.com>
 
 ## Outside resources
 
