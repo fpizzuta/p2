@@ -22,6 +22,7 @@
             <label class="control-label col-sm-2" for='firstName'>First Name</label>
             <div class="col-sm-10">
                 <input type="text"
+                       id='firstName'
                        class="form-control"
                        name="firstName"
                        value="<?= isset($results['firstName']) ? $results['firstName'] : '' ?>">
