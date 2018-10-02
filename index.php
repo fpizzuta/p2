@@ -32,6 +32,7 @@
             <label class="control-label col-sm-2" for='lastName'>Last Name</label>
             <div class="col-sm-10">
                 <input type="text"
+                       id='lastName'
                        class="form-control"
                        name="lastName"
                        value="<?= isset($results['lastName']) ? $results['lastName'] : '' ?>">
@@ -40,7 +41,7 @@
         <div class="form-group">
             <label class="control-label col-sm-2" for='trackName'>Pick Track</label>
             <div class="col-sm-10">
-                <select name='trackName' class="form-control">
+                <select name='trackName' class="form-control" id='trackName'>
                     <option <?php if ($results['trackName'] == 'CSS') echo 'selected'; ?> value="CSS">CSS</option>
                     <option <?php if ($results['trackName'] == 'HTML') echo 'selected'; ?> value="HTML">HTML</option>
                     <option <?php if ($results['trackName'] == 'Javascript') echo 'selected'; ?> value="Javascript">Javascript</option>
@@ -52,6 +53,7 @@
             <label class="control-label col-sm-2" for='guests'>Number of guests</label>
             <div class="col-sm-10">
                 <input type="text"
+                       id='guests'
                        class="form-control"
                        name="guests"
                        placeholder='$100 per person'
@@ -63,7 +65,7 @@
                 <div class="checkbox">
                     <label><input type="checkbox"
                                   name="diet"
-                                  value='restrict' <?php if ($results['diet'] == 'restrict') echo 'checked'; ?>
+                                  value='restrict' <?php if ($results['diet'] == 'restrict') echo 'checked'; ?>>
                                   Dietary
                                   Restrictions> </label>
                 </div>
