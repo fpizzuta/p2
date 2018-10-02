@@ -1,4 +1,4 @@
-<?php require('p2Logic.php'); ?>
+<?php require 'p2Logic.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -50,7 +50,7 @@
         <div class="form-group">
             <div class="col-sm-offset-2 col-sm-10">
                 <div class="checkbox">
-                    <label><input type="checkbox" name="diet" value='0'> Dietary Restrictions </label>
+                    <label><input type="checkbox" name="diet" value='restrict' <?php if ($results['diet'] == 'restrict') echo 'checked' ; ?> Dietary Restrictions </label>
                 </div>
             </div>
         </div>
