@@ -64,7 +64,7 @@
                                   name="diet"
                                   value='restrict' <?php if ($results['diet'] == 'restrict') echo 'checked'; ?>
                                   Dietary
-                                  Restrictions </label>
+                                  Restrictions> </label>
                 </div>
             </div>
         </div>
